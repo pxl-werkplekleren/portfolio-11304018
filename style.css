@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    border: solid 5px black;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: gray;
+}
+
+nav li {
+    list-style: none;
+    border: solid 2px black;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: bisque;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 4rem;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 2.5rem;
+}
+
+h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.introTekstDeel p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.keuzeTekstDeel p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.introTekstDeel {
+    margin: 2rem;
+}
+
+.keuzeTekstDeel {
+    margin: 2rem;
+}
+
+table {
+    margin-top: 5rem;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+table th {
+    border: 2px solid black;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+table tr {
+    border: 1px solid black;
+}
+
+h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.situering {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.situeringList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.situering ul {
+    list-style: circle;
+}
+
+.logboekTabel {
+    display: flex;
+    justify-content: center;
+}
+
+.logboekTabel table td {
+    padding: 1rem;
+}
